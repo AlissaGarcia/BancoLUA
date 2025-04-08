@@ -3,7 +3,7 @@ var contas = [];
 document.getElementById("btnLogin").onclick = function() {
   var login = document.getElementById("login").value;
   var senha = document.getElementById("senha").value;
-  if(login === "alissaeluidy" && senha === "123") {
+  if(login === "lua" && senha === "123") {
     document.getElementById("login-screen").style.display = "none";
     document.getElementById("menu-screen").style.display = "block";
   } else {
