@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Sistema Bancário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-screen">
+    <h1>Sistema Bancário</h1>
+    <h2>Login</h2>
+    <input type="text" id="login" placeholder="Login">
+    <input type="password" id="senha" placeholder="Senha">
+    <button id="btnLogin">Entrar</button>
+  </div>
+  <div id="menu-screen" style="display:none">
+    <h1>Menu do Sistema</h1>
+    <button onclick="criarConta()">Criar Conta</button>
+    <button onclick="consultarConta()">Consultar Conta</button>
+    <button onclick="removerConta()">Remover Conta</button>
+    <button onclick="creditar()">Creditar</button>
+    <button onclick="debitar()">Debitar</button>
+    <button onclick="renderJuros()">Render Juros</button>
+    <button onclick="transferir()">Efetuar Transferência</button>
+    <button onclick="listarContas()">Listar Contas</button>
+    <button onclick="sair()">Sair do Sistema</button>
+    <div id="tabelaContas"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
