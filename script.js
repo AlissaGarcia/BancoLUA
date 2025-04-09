@@ -142,3 +142,4 @@ function sair() {
   alert("Saindo do sistema");
   location.reload();
 }
+console.log(contas)
